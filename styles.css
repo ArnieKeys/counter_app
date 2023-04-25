@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  height: auto;
+}
+
+.counter {
+  width: 400px;
+  height: 600px;
+  margin: auto auto;
+  text-align: center;
+  font-size: 30px;
+  background-image: url("images/train.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 12px;
+}
+
+.btn{
+    width: 200px;
+    padding: 10px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-data{
+    text-align: left;
+    margin: 5px;
+    color: black;
+}
